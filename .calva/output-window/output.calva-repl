@@ -180,3 +180,163 @@ clj꞉project-euler.problems.problem-1-test꞉> 
 ; Running tests for project-euler.problems.problem-1-test...
 ; 1 tests finished, all passing 👍, ns: 1, vars: 1
 clj꞉project-euler.problems.problem-1-test꞉> 
+nil
+clj꞉project-euler.problems.problem-2꞉> 
+nil
+clj꞉project-euler.problems.problem-2꞉> 
+#'project-euler.problems.problem-2/fib-add
+clj꞉project-euler.problems.problem-2꞉> 
+#'project-euler.problems.problem-2/fib-seq
+clj꞉project-euler.problems.problem-2꞉> 
+(iterate fib-add [0 1])
+([0 1]
+ [1 1]
+ [1 2]
+ [2 3]
+ [3 5]
+ [5 8]
+ [8 13]
+ [13 21]
+ [21 34]
+ [34 55]
+ [55 89]
+ [89 144]
+ [144 233]
+ [233 377]
+ [377 610]
+ [610 987]
+ [987 1597]
+ [1597 2584]
+ [2584 4181]
+ [4181 6765]
+ [6765 10946]
+ [10946 17711]
+ [17711 28657]
+ [28657 46368]
+ [46368 75025]
+ [75025 121393]
+ [121393 196418]
+ [196418 317811]
+ [317811 514229]
+ [514229 832040]
+ [832040 1346269]
+ [1346269 2178309]
+ [2178309 3524578]
+ [3524578 5702887]
+ [5702887 9227465]
+ [9227465 14930352]
+ [14930352 24157817]
+ [24157817 39088169]
+ [39088169 63245986]
+ [63245986 102334155]
+ [102334155 165580141]
+ [165580141 267914296]
+ [267914296 433494437]
+ [433494437 701408733]
+ [701408733 1134903170]
+ [1134903170 1836311903]
+ [1836311903 2971215073]
+ [2971215073 4807526976]
+ [4807526976 7778742049]
+ [7778742049 12586269025]
+ ...)
+clj꞉project-euler.problems.problem-2꞉> 
+#'project-euler.problems.problem-2/less-than-four-million
+clj꞉project-euler.problems.problem-2꞉> 
+le
+; Syntax error compiling at (c:\Users\parkergabel\Development\Clojure\project-euler\.calva\output-window\output.calva-repl:1:7984).
+; Unable to resolve symbol: le in this context
+clj꞉project-euler.problems.problem-2꞉> 
+less-than-four-million
+(1
+ 1
+ 2
+ 3
+ 5
+ 8
+ 13
+ 21
+ 34
+ 55
+ 89
+ 144
+ 233
+ 377
+ 610
+ 987
+ 1597
+ 2584
+ 4181
+ 6765
+ 10946
+ 17711
+ 28657
+ 46368
+ 75025
+ 121393
+ 196418
+ 317811
+ 514229
+ 832040
+ 1346269
+ 2178309
+ 3524578)
+clj꞉project-euler.problems.problem-2꞉> 
+#'project-euler.problems.problem-2/all-evens
+clj꞉project-euler.problems.problem-2꞉> 
+all
+; Syntax error compiling at (c:\Users\parkergabel\Development\Clojure\project-euler\.calva\output-window\output.calva-repl:1:7984).
+; Unable to resolve symbol: all in this context
+clj꞉project-euler.problems.problem-2꞉> 
+all-evens
+(2 8 34 144 610 2584 10946 46368 196418 832040 3524578)
+clj꞉project-euler.problems.problem-2꞉> 
+#'project-euler.problems.problem-2/solution
+clj꞉project-euler.problems.problem-2꞉> 
+sol
+; Syntax error compiling at (c:\Users\parkergabel\Development\Clojure\project-euler\.calva\output-window\output.calva-repl:1:7984).
+; Unable to resolve symbol: sol in this context
+clj꞉project-euler.problems.problem-2꞉> 
+solution
+4613732
+clj꞉project-euler.problems.problem-2꞉> 
+#'project-euler.problems.problem-1/solution
+clj꞉project-euler.problems.problem-1꞉> 
+; Evaluating file: problem_1_test.clj
+#'project-euler.problems.problem-1-test/problem-1-answer
+; Running tests for project-euler.problems.problem-1-test...
+; ERROR in project-euler.problems.problem-1-test/problem-1-answer (line 7):
+; Ensures the proper solution for problem 1
+; error: java.lang.ClassCastException: java.lang.Long cannot be cast to clojure.lang.IFn (problem_1_test.clj)
+; expected:
+(= (project-euler.problems.problem-1/solution) 233168)
+; 1 tests finished, problems found. 😭 errors: 1, failures: 0, ns: 1, vars: 1
+clj꞉project-euler.problems.problem-1-test꞉> 
+nil
+clj꞉project-euler.problems.problem-1-test꞉> 
+#'project-euler.problems.problem-1-test/problem-1-answer
+clj꞉project-euler.problems.problem-1-test꞉> 
+; Evaluating file: problem_1_test.clj
+#'project-euler.problems.problem-1-test/problem-1-answer
+; Running tests for project-euler.problems.problem-1-test...
+; ERROR in project-euler.problems.problem-1-test/problem-1-answer (line 7):
+; Ensures the proper solution for problem 1
+; error: java.lang.ClassCastException: java.lang.Long cannot be cast to clojure.lang.IFn (problem_1_test.clj)
+; expected:
+(= (project-euler.problems.problem-1/solution) 233168)
+; 1 tests finished, problems found. 😭 errors: 1, failures: 0, ns: 1, vars: 1
+clj꞉project-euler.problems.problem-1-test꞉> 
+#'project-euler.problems.problem-1-test/problem-1-answer
+clj꞉project-euler.problems.problem-1-test꞉> 
+; Evaluating file: problem_1_test.clj
+#'project-euler.problems.problem-1-test/problem-1-answer
+; Running tests for project-euler.problems.problem-1-test...
+; 1 tests finished, all passing 👍, ns: 1, vars: 1
+clj꞉project-euler.problems.problem-1-test꞉> 
+nil
+clj꞉project-euler.problems.problem-2-test꞉> 
+; Evaluating file: problem_2_test.clj
+#'project-euler.problems.problem-2-test/problem-2-answer
+; Running tests for project-euler.problems.problem-2-test...
+; 1 tests finished, all passing 👍, ns: 1, vars: 1
+clj꞉project-euler.problems.problem-2-test꞉> 

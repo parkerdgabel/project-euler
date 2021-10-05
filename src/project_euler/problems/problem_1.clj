@@ -7,8 +7,4 @@
 (def multiples-of-3-or-5 (for [x     (range 1000)
                                :when (or (== 0 (mod x 3)) (== 0 (mod x 5)))] x))
 
-(def sum-of-multiples (reduce + multiples-of-3-or-5))
-
-(defn problem-1
-  []
-  sum-of-multiples)
+(def solution (reduce + multiples-of-3-or-5))

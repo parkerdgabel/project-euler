@@ -4,4 +4,4 @@
 
 (deftest problem-1-answer
   (testing "Ensures the proper solution for problem 1"
-    (is (= (project-euler.problems.problem-1/problem-1) 233168))))
+    (is (= solution 233168))))
