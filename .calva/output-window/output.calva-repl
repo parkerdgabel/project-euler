@@ -6,6 +6,7 @@
 
 ; Jacking in...
 ; Starting Jack-in Terminal: cmd.exe /d /c lein update-in :dependencies conj [nrepl,"0.8.3"] -- update-in :plugins conj [cider/cider-nrepl,"0.26.0"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; nREPL Connection was closed
 ; Hooking up nREPL sessions...
 ; Connected session: clj
 ; TIPS: 
@@ -18,25 +19,74 @@
 clj꞉project-euler.core꞉> 
 ; Jack-in done.
 clj꞉project-euler.core꞉> 
-#'project-euler.problems.problem-3/factor-2
+#'project-euler.problems.problem-3/largest-factor
 clj꞉project-euler.problems.problem-3꞉> 
-(factor-2 0)
-; Execution error (AssertionError) at project-euler.problems.problem-3/factor-2 (form-init564680911141279983.clj:10).
-; Assert failed: (pos? num)
+(take-while #(<= 10 %) primes)
+()
 clj꞉project-euler.problems.problem-3꞉> 
-(factor-2 -1)
-; Execution error (AssertionError) at project-euler.problems.problem-3/factor-2 (form-init564680911141279983.clj:10).
-; Assert failed: (pos? num)
+(take-while #(<= % 10) primes)
+(2 3 5 7)
 clj꞉project-euler.problems.problem-3꞉> 
-(factor-2 1)
-1
+#'project-euler.problems.problem-3/largest-factor
 clj꞉project-euler.problems.problem-3꞉> 
-(factor-2 3)
-3
+(largest-factor 2)
+nil
 clj꞉project-euler.problems.problem-3꞉> 
-(factor-2 5)
+(largest-factor 10)
+2
+clj꞉project-euler.problems.problem-3꞉> 
+(largest-factor 100)
 5
 clj꞉project-euler.problems.problem-3꞉> 
-(factor-2 6)
-3
+(largest-factor 20)
+2
 clj꞉project-euler.problems.problem-3꞉> 
+(largest-factor 1)
+1
+clj꞉project-euler.problems.problem-3꞉> 
+(largest-factor 2)
+nil
+clj꞉project-euler.problems.problem-3꞉> 
+(largest-factor 3)
+nil
+clj꞉project-euler.problems.problem-3꞉> 
+#'project-euler.problems.problem-3/largest-factor
+clj꞉project-euler.problems.problem-3꞉> 
+(largest-factor 20)
+5
+clj꞉project-euler.problems.problem-3꞉> 
+(largest-factor 90)
+5
+clj꞉project-euler.problems.problem-3꞉> 
+(largest-factor 192849849)
+clj꞉project-euler.problems.problem-3꞉> 
+
+clj꞉project-euler.problems.problem-3꞉> 
+(largest-factor 1928)
+8089
+clj꞉project-euler.problems.problem-3꞉> 
+241
+clj꞉project-euler.problems.problem-3꞉> 
+241
+clj꞉project-euler.problems.problem-3꞉> 
+(largest-factor 1928)
+241
+clj꞉project-euler.problems.problem-3꞉> 
+(largest-factor 19)
+19
+clj꞉project-euler.problems.problem-3꞉> 
+(largest-factor 10000000000000000000000000000)
+5
+clj꞉project-euler.problems.problem-3꞉> 
+(largest-factor 600851475143)
+6857
+clj꞉project-euler.problems.problem-3꞉> 
+#'project-euler.problems.problem-3/solution
+clj꞉project-euler.problems.problem-3꞉> 
+nil
+clj꞉project-euler.problems.problem-3-test꞉> 
+; Evaluating file: problem_3_test.clj
+#'project-euler.problems.problem-3-test/problem-3-answer
+; Running tests for project-euler.problems.problem-3-test...
+; 1 tests finished, all passing 👍, ns: 1, vars: 1
+clj꞉project-euler.problems.problem-3-test꞉> 

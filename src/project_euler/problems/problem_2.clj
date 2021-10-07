@@ -7,14 +7,14 @@
    By considering the terms in the Fibonacci sequence whose values do not exceed four million,
    find the sum of the even-valued terms.")
 
-(defn fib-add [[a b]]
+(defn- fib-add [[a b]]
   [b (+ a b)])
 
-(def fib-seq
+(def ^:private fib-seq
   (map last (iterate fib-add [0 1])))
 
-(def less-than-four-million (take-while #(< % (* 4 1000000)) fib-seq))
+(def ^:private less-than-four-million (take-while #(< % (* 4 1000000)) fib-seq))
 
-(def all-evens (filter even? less-than-four-million))
+(def ^:private all-evens (filter even? less-than-four-million))
 
 (def solution (reduce + all-evens))
