@@ -1,4 +1,4 @@
-(ns project-euler.problems.problem-4
+ (ns project-euler.problems.problem-4
   "A palindromic number reads the same both ways.
    The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
 
@@ -23,5 +23,3 @@
     false))
 
 (def solution (find-first is-product-of-three-digits (->> palindromes (sort) (reverse))))
-
-
