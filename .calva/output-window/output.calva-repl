@@ -190,3 +190,150 @@ clj꞉project-euler.problems.problem-6꞉> 
 ; Running tests for project-euler.problems.problem-6-test...
 ; 1 tests finished, all passing 👍, ns: 1, vars: 1
 clj꞉project-euler.problems.problem-6-test꞉> 
+; Execution error (IllegalAccessError) at project-euler.problems.problem-7/eval8017$loading (form-init4195824602848004708.clj:1).
+; primes does not exist
+clj꞉project-euler.problems.problem-7꞉> 
+; Evaluating file: problem_7.clj
+; Syntax error (IllegalAccessError) compiling at (c:\Users\parkergabel\Development\Clojure\project-euler\src\project_euler\problems\problem_7.clj:1:1).
+; primes does not exist
+; Evaluation of file problem_7.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉project-euler.problems.problem-7꞉> 
+clj꞉project-euler.problems.problem-7꞉> 
+; Syntax error compiling at (c:\Users\parkergabel\Development\Clojure\project-euler\src\project_euler\problems\problem_7.clj:7:37).
+; Unable to resolve symbol: primes in this context
+clj꞉project-euler.problems.problem-7꞉> 
+; Evaluating file: problem_7.clj
+; Syntax error (IllegalAccessError) compiling at (c:\Users\parkergabel\Development\Clojure\project-euler\src\project_euler\problems\problem_7.clj:1:1).
+; primes does not exist
+; Evaluation of file problem_7.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉project-euler.problems.problem-7꞉> 
+clj꞉project-euler.problems.problem-7꞉> 
+; Execution error (IllegalAccessError) at project-euler.problems.problem-7/eval8051$loading (form-init4195824602848004708.clj:1).
+; primes does not exist
+clj꞉project-euler.problems.problem-7꞉> 
+; Execution error (IllegalAccessError) at project-euler.problems.problem-7/eval8059$loading (form-init4195824602848004708.clj:1).
+; primes does not exist
+clj꞉project-euler.problems.problem-7꞉> 
+clojure.core/refer (core.clj:4237)
+clojure.core/refer (core.clj:4205)
+clojure.core/apply (core.clj:669)
+clojure.core/load-lib (core.clj:5955)
+clojure.core/load-lib (core.clj:5917)
+clojure.core/apply (core.clj:669)
+clojure.core/load-libs (core.clj:5974)
+clojure.core/load-libs (core.clj:5958)
+clojure.core/apply (core.clj:669)
+clojure.core/require (core.clj:5996)
+project-euler.problems.problem-7/eval8059 (form-init4195824602848004708.clj:1)
+clojure.lang.Compiler/eval (Compiler.java:7181)
+clojure.core/eval (core.clj:3202)
+clojure.core/eval (core.clj:3198)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:667)
+clojure.core/with-bindings* (core.clj:1977)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (:-1)
+clj꞉project-euler.problems.problem-7꞉> 
+#'project-euler.utils.number-seqs/primes
+clj꞉project-euler.utils.number-seqs꞉> 
+; Syntax error compiling at (c:\Users\parkergabel\Development\Clojure\project-euler\src\project_euler\problems\problem_7.clj:7:37).
+; Unable to resolve symbol: primes in this context
+clj꞉project-euler.problems.problem-7꞉> 
+nil
+clj꞉project-euler.problems.problem-7꞉> 
+#'project-euler.problems.problem-7/solution
+clj꞉project-euler.problems.problem-7꞉> 
+
+solution
+clj꞉project-euler.problems.problem-7꞉> 
+
+clj꞉project-euler.problems.problem-7꞉> 
+sol
+(2 104759 224771 350429)
+clj꞉project-euler.problems.problem-7꞉> 
+(2 104759 224771 350429)
+clj꞉project-euler.problems.problem-7꞉> 
+(2 104759 224771 350429)
+(2 104759 224771 350429)
+(2 104759 224771 350429)
+(2 104759 224771 350429)
+(2 104759 224771 350429)
+clj꞉project-euler.problems.problem-7꞉> 
+clj꞉project-euler.problems.problem-7꞉> 
+clj꞉project-euler.problems.problem-7꞉> 
+clj꞉project-euler.problems.problem-7꞉> 
+clj꞉project-euler.problems.problem-7꞉> 
+; Syntax error compiling at (c:\Users\parkergabel\Development\Clojure\project-euler\.calva\output-window\output.calva-repl:1:7984).
+; Unable to resolve symbol: sol in this context
+clj꞉project-euler.problems.problem-7꞉> 
+; Syntax error compiling at (c:\Users\parkergabel\Development\Clojure\project-euler\.calva\output-window\output.calva-repl:1:7984).
+; Unable to resolve symbol: sol in this context
+clj꞉project-euler.problems.problem-7꞉> 
+solution
+(2 104759 224771 350429)
+clj꞉project-euler.problems.problem-7꞉> 
+#'project-euler.problems.problem-7/solution
+clj꞉project-euler.problems.problem-7꞉> 
+104743
+clj꞉project-euler.problems.problem-7꞉> 
+; Evaluating file: problem_7_test.clj
+; Syntax error (IllegalAccessError) compiling at (c:\Users\parkergabel\Development\Clojure\project-euler\test\project_euler\problems\problem_7_test.clj:1:1).
+; solution is not public
+; Evaluation of file problem_7_test.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉project-euler.problems.problem-7꞉> 
+clj꞉project-euler.problems.problem-7-test꞉> 
+; Evaluating file: problem_7_test.clj
+; Syntax error (IllegalAccessError) compiling at (c:\Users\parkergabel\Development\Clojure\project-euler\test\project_euler\problems\problem_7_test.clj:1:1).
+; solution is not public
+; Evaluation of file problem_7_test.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉project-euler.problems.problem-7-test꞉> 
+clj꞉project-euler.problems.problem-7-test꞉> 
+; Evaluating file: problem_7.clj
+#'project-euler.problems.problem-7/solution
+clj꞉project-euler.problems.problem-7꞉> 
+; Syntax error compiling at (c:\Users\parkergabel\Development\Clojure\project-euler\test\project_euler\problems\problem_7_test.clj:7:5).
+; Unable to resolve symbol: solution in this context
+clj꞉project-euler.problems.problem-7-test꞉> 
+; Evaluating file: problem_7.clj
+#'project-euler.problems.problem-7/solution
+clj꞉project-euler.problems.problem-7꞉> 
+; Evaluating file: problem_7_test.clj
+#'project-euler.problems.problem-7-test/problem-6-answer
+clj꞉project-euler.problems.problem-7-test꞉> 
+#'project-euler.problems.problem-7/solution
+clj꞉project-euler.problems.problem-7꞉> 
+#'project-euler.problems.problem-7-test/problem-6-answer
+clj꞉project-euler.problems.problem-7-test꞉> 
+; Evaluating file: problem_7_test.clj
+#'project-euler.problems.problem-7-test/problem-6-answer
+; Running tests for project-euler.problems.problem-7-test...
+; FAIL in project-euler.problems.problem-7-test/problem-6-answer (problem_7_test.clj:7):
+; The correct answer returned for problem 6
+; expected:
+25164150
+; actual:
+(104743)
+; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+clj꞉project-euler.problems.problem-7-test꞉> 
+; Evaluating file: problem_7_test.clj
+#'project-euler.problems.problem-7-test/problem-6-answer
+clj꞉project-euler.problems.problem-7-test꞉> 
+; Evaluating file: problem_7_test.clj
+#'project-euler.problems.problem-7-test/problem-6-answer
+; Running tests for project-euler.problems.problem-7-test...
+; 1 tests finished, all passing 👍, ns: 1, vars: 1
+clj꞉project-euler.problems.problem-7-test꞉> 
+#'project-euler.problems.problem-7/solution
+clj꞉project-euler.problems.problem-7꞉> 
