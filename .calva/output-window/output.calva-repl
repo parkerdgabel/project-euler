@@ -39,3 +39,141 @@ clj꞉project-euler.problems.problem-5꞉> 
 ; Running tests for project-euler.problems.problem-5-test...
 ; 1 tests finished, all passing 👍, ns: 1, vars: 1
 clj꞉project-euler.problems.problem-5-test꞉> 
+nil
+clj꞉project-euler.problems.problem-6꞉> 
+#'project-euler.utils.number-seqs/natural-numbers
+clj꞉project-euler.utils.number-seqs꞉> 
+nil
+clj꞉project-euler.problems.problem-6꞉> 
+#'project-euler.problems.problem-6/one-hundred
+clj꞉project-euler.problems.problem-6꞉> 
+(1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ ...)
+clj꞉project-euler.problems.problem-6꞉> 
+nil
+clj꞉project-euler.problems.problem-6꞉> 
+#'project-euler.problems.problem-6/squares
+clj꞉project-euler.problems.problem-6꞉> 
+338350
+clj꞉project-euler.problems.problem-6꞉> 
+#'project-euler.problems.problem-6/squares
+clj꞉project-euler.problems.problem-6꞉> 
+(1
+ 4
+ 9
+ 16
+ 25
+ 36
+ 49
+ 64
+ 81
+ 100
+ 121
+ 144
+ 169
+ 196
+ 225
+ 256
+ 289
+ 324
+ 361
+ 400
+ 441
+ 484
+ 529
+ 576
+ 625
+ 676
+ 729
+ 784
+ 841
+ 900
+ 961
+ 1024
+ 1089
+ 1156
+ 1225
+ 1296
+ 1369
+ 1444
+ 1521
+ 1600
+ 1681
+ 1764
+ 1849
+ 1936
+ 2025
+ 2116
+ 2209
+ 2304
+ 2401
+ 2500
+ ...)
+clj꞉project-euler.problems.problem-6꞉> 
+#'project-euler.problems.problem-6/sum-of
+clj꞉project-euler.problems.problem-6꞉> 
+#'project-euler.problems.problem-6/sum-of-first-100
+clj꞉project-euler.problems.problem-6꞉> 
+sum
+; Syntax error compiling at (c:\Users\parkergabel\Development\Clojure\project-euler\.calva\output-window\output.calva-repl:1:7984).
+; Unable to resolve symbol: sum in this context
+clj꞉project-euler.problems.problem-6꞉> 
+5050
+clj꞉project-euler.problems.problem-6꞉> 
+#'project-euler.problems.problem-6/sum-of-squares
+clj꞉project-euler.problems.problem-6꞉> 
+338350
+clj꞉project-euler.problems.problem-6꞉> 
+#'project-euler.problems.problem-6/solution
+clj꞉project-euler.problems.problem-6꞉> 
+25164150
+clj꞉project-euler.problems.problem-6꞉> 

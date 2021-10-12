@@ -1,0 +1,1 @@
+(ns project-euler.problems.problem-6-test)
