@@ -177,3 +177,16 @@ clj꞉project-euler.problems.problem-6꞉> 
 clj꞉project-euler.problems.problem-6꞉> 
 25164150
 clj꞉project-euler.problems.problem-6꞉> 
+; Syntax error compiling at (c:\Users\parkergabel\Development\Clojure\project-euler\src\project_euler\problems\problem_6.clj:1:7984).
+; Unable to resolve symbol: solution in this context
+clj꞉project-euler.problems.problem-6꞉> 
+; Evaluating file: problem_6.clj
+25164150
+clj꞉project-euler.problems.problem-6꞉> 
+25164150
+clj꞉project-euler.problems.problem-6꞉> 
+; Evaluating file: problem_6_test.clj
+#'project-euler.problems.problem-6-test/problem-6-answer
+; Running tests for project-euler.problems.problem-6-test...
+; 1 tests finished, all passing 👍, ns: 1, vars: 1
+clj꞉project-euler.problems.problem-6-test꞉> 
